@@ -61,14 +61,14 @@ header{
 .a_men{
 	text-decoration: none;
 	color: black;
-	font-size: 35px;
+	font-size: 30px;
 	font-family: 'Comfortaa', cursive;
 }
 
 .a_woomen{
 	text-decoration: none;
 	color: black;
-	font-size: 35px;
+	font-size: 30px;
 	font-family: 'Comfortaa', cursive;
 }
 
@@ -255,7 +255,7 @@ header{
 	margin: 0px 0px 20px 0px;
 	margin: 0 auto;
 	max-width: 100%;
-	height: 1750px;
+	height: min-height;
 	background-color: white;
 	padding: 120px 0px 0px 0px;
 }
@@ -294,6 +294,7 @@ header{
 
 .content__items{
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	height: 100%;
 	justify-content: space-between;
@@ -301,7 +302,9 @@ header{
 
 .comtent__items_first-item,.comtent__items_second-item,.comtent__items_third-item{
 	display: flex;
+	flex-wrap: wrap;
 	width: 32.8%;
+	min-width: 300px;
 	height: 100%;
 	background-color: #A0A0A0;
 	justify-content: center;
@@ -332,6 +335,7 @@ footer{
 	height: 100px;
 	background-color: white;
 	box-shadow: -5px -5px 8px rgba(0,0,0,0.5);
+	z-index: 10;
 }
 
 .footer{
